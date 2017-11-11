@@ -1,5 +1,22 @@
+
+.main-content{
+    display: table;
+    margin: 0 auto;
+}
 .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
+}
+.message-section{
+    border: 1px solid black;
+    height: 80vh;
+    width: 50vw;
+    overflow-y: scroll;
+   
+}
+.form-section{
+  position:fixed;
+  bottom:0px;
+    
+    margin-right:0;
+    margin-left:0;
 }
