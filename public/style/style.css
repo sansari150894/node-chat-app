@@ -7,10 +7,11 @@
     
 }
 .message-section{
-    border: 1px solid black;
+  
     height: 80vh;
-    width: 50vw;
+    width: 90vw;
     overflow-y: scroll;
+
    
 }
 .form-section{
@@ -19,4 +20,10 @@
     
     margin-right:0;
     margin-left:0;
+}
+
+.message-section, .message-section .messages
+{
+    transform:rotateX(180deg);
+  
 }
