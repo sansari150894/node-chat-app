@@ -1,13 +1,29 @@
 <html>
     <head>
         <title>Node-chat-app</title>
+        <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
         <h1>Node Chat App</h1>
-        <p>this is chat app made in node js -Random Ansari</p>
+        <div class='content'>
+                <ol id='messages'>
+                        
+                </ol>
+                                
+                <form id='message-form'> 
+                    <input name="message" type="text" placeholder="message..."/>
+                    <button>Send</button>
+                </form>
+            
+        </div>
+       
 
+       
+        
 
         <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/jquery-3.2.1.min.js"></script>
         <script src="/js/index.js"></script>
+       
     </body>
 </html>
