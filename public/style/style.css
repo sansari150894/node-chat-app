@@ -64,3 +64,57 @@ body{
     transform:rotateX(180deg);
   
 }
+
+
+
+
+
+.form-section-welcome{
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: row;
+    widows: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: .7;
+}
+
+.message-welcome{
+    
+}
+
+.join-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.join-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.join-name{
+   height: 40px;
+   width: 300px;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px;
+   border: none;
+   border: 2px solid rgb(69, 197, 86);
+   margin-bottom: 10px;
+}
+.btn-join{
+    margin: 0 auto;
+    height: 40px;
+    width: 100px; 
+    border-radius: 5px;
+    background-color: rgb(133, 125, 125);;
+    color:rgb(0, 255, 34);;
+    font-size: 20px;
+    border: 2px solid rgb(0, 255, 34);
+}

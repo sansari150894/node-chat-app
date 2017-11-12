@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Node-chat-app</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class='main-content'>
+                <div class="header">Random's Chat App</div>
+               
+                <div class='message-section'>
+                      <ul id='messages' class='messages'></ul>
+                </div>
+                <div class='form-section'>
+                        <form id='message-form'> 
+                            <input class='message-box' name="message" type="text" placeholder="message..." required/>
+                            <button class='btn-send'>Send</button>
+                        </form>
+                </div>
+                    
+              
+
+        </div>
+       
+       
+
+       
+        
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/jquery-3.2.1.min.js"></script>
+        <script src="/js/chat.js"></script>
+        <script src="/js/deparam.js"></script>
+
+       
+    </body>
+</html>

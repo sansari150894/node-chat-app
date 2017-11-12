@@ -5,18 +5,26 @@
     </head>
     <body>
         <div class='main-content'>
-                <div class="header">Random Chat App</div>
-               
-                <div class='message-section'>
-                      <ul id='messages' class='messages'></ul>
+                <div class="header">Random's Chat App</div>
+
+                <div class='join-center'>
+                    <form class='join-form'action="/chat.html">
+                       
+                            <div class='join-form-field'>
+                                <h3>Join Chat Room</h3>
+                            </div>
+                            <div class='join-form-field'>
+                                <input class='join-name' type="text" name="name" autofocus placeholder="your first name" required>
+                            </div>
+                           
+                            <div class='join-form-field'>
+                                <button class='btn-join'>Join</button>
+                            </div>
+                    </form>
+
                 </div>
-                <div class='form-section'>
-                        <form id='message-form'> 
-                            <input class='message-box' name="message" type="text" placeholder="message..."/>
-                            <button class='btn-send'>Send</button>
-                        </form>
-                </div>
-                    
+
+                
               
 
         </div>
@@ -28,7 +36,7 @@
 
         <script src="/socket.io/socket.io.js"></script>
         <script src="/js/jquery-3.2.1.min.js"></script>
-        <script src="/js/index.js"></script>
+        <script src="/js/chat.js"></script>
        
     </body>
 </html>
