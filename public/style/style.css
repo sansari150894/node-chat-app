@@ -1,6 +1,9 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    position:fixed;
+    width: 100%;
+    height: 100%;
 }
 .main-content{
     background-color:rgb(228, 222, 222);
@@ -22,6 +25,7 @@ body{
 .message-section{
     flex-basis: 80%;
     overflow-y: scroll;
+  
 }
 
 .form-section{
@@ -32,13 +36,13 @@ body{
     color: white;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    opacity: .7;
+    background-color: rgb(228, 222, 222);
+    padding:10px;
+    
+
 }
 
-.message{
-    
-}
+
 
 .message-box{
    height: 50px;
@@ -47,17 +51,38 @@ body{
    font-size: 20px;
    padding: 10px;
    border: none;
-   border: 2px solid rgb(0, 255, 34);
+   border: 1px solid rgb(100, 98, 98);
 }
+
+
+
 .btn-send{
     height: 50px;
-    width: 150px; 
+    width: 100px; 
     border-radius: 5px;
-    background-color: black;
-    color:rgb(0, 255, 34);;
+    background-color: rgb(253, 253, 253);
+    color:rgb(0, 0, 0);;
     font-size: 20px;
-    border: 2px solid rgb(0, 255, 34);
+    border: 1px solid rgb(100, 98, 98);
 }
+
+@media(max-width:600px){
+    
+ 
+     .message-box{
+       
+         width: 200px;
+         height: 40px;
+        
+      }
+
+      .btn-send{
+        height: 40px;
+        width: 80px; 
+    }
+    
+ }
+ 
 
 .message-section, .message-section .messages
 {
@@ -105,7 +130,7 @@ body{
    font-size: 20px;
    padding: 10px;
    border: none;
-   border: 2px solid rgb(69, 197, 86);
+   border: 2px solid rgb(0, 0, 0);
    margin-bottom: 10px;
 }
 .btn-join{
@@ -116,5 +141,5 @@ body{
     background-color: rgb(133, 125, 125);;
     color:rgb(0, 255, 34);;
     font-size: 20px;
-    border: 2px solid rgb(0, 255, 34);
+    border: 2px solid rgb(0, 0, 0);
 }
